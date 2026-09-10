@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+
+    #conteiner {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #conteiner > h1 {
+        text-align: center;
+        flex-basis: auto;
+    }
+
+    #itens {
+        align-content: center;
+        padding: 15px;
+        margin: auto;
+    }
+
+    #itens > a {
+        width: 200px;
+    }
+}
