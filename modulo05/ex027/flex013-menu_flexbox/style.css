@@ -46,7 +46,7 @@ header {
 #itens > a:hover {
     background-color: white;
     color: black;
-    transition: .6s;
+    transition: background-color .5s;
 }
 
 main {
