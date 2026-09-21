@@ -1,2 +1,52 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 15px;
+    padding-top: 10px;
+}
+
+header > p {
+    padding-top: 15px;
+}
+
+section {
+    background-color: rgba(178, 178, 178, 0.481);
+}
+
+#conteiner {
+    
+}
+
+#conteiner > h2{
+    margin: 15px;
+    padding-top: 10px;
+    border: 1px dotted black;
+}
+
+#conteiner > p {
+    margin: 15px;
+    padding-top: 10px;
+    border: 1px dotted black;
+}
+
+#conteiner > img {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+section > img {
+
+}
+
+
+
+
+footer {
+
+}
