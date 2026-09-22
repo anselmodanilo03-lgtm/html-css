@@ -19,33 +19,20 @@ section {
     background-color: rgba(178, 178, 178, 0.481);
 }
 
-#conteiner {
-    
-}
-
-#conteiner > h2{
+section > h2 p{
     margin: 15px;
     padding-top: 10px;
     border: 1px dotted black;
 }
 
-#conteiner > p {
-    margin: 15px;
-    padding-top: 10px;
-    border: 1px dotted black;
+#conteudo1 {
+    display: flex;
 }
 
-#conteiner > img {
+#imagem{
     display: flex;
     flex-flow: row-reverse wrap;
 }
-
-section > img {
-
-}
-
-
-
 
 footer {
 
