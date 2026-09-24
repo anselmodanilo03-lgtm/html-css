@@ -29,6 +29,15 @@ section > h2 p{
     display: flex;
 }
 
+#conteudo1 > p {
+    
+}
+
+
+#conteudo1 > h2 {
+    
+}
+
 #imagem{
     display: flex;
     flex-flow: row-reverse wrap;
