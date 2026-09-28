@@ -38,7 +38,7 @@ section > h2 p{
     
 }
 
-#imagem{
+#imagem {
     display: flex;
     flex-flow: row-reverse wrap;
 }
