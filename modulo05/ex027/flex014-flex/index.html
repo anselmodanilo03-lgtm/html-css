@@ -11,26 +11,38 @@
         <h1>Exemplo de conteúdo flexível</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta, quasi enim eum expedita sit facere! Non alias ab cumque voluptatibus reiciendis repellendus doloremque nam voluptatem, quas assumenda rerum aliquid!</p>
     </header>
-    <section id="conteudo1">
-        <h2>Elemento Media➔Text</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reprehenderit maiores pariatur culpa tempora, doloribus obcaecati sed totam id exercitationem hic delectus quidem excepturi non laudantium similique voluptatem asperiores sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat adipisci minus tempore et! Laudantium, qui cumque! Harum eaque hic repudiandae. Odio quod suscipit aspernatur eos eligendi sit repudiandae quos nobis?
-        </p>
-        <div id="imagem">
-            <img src="foto.png" alt="Uma pessoa interagindo com um painel digital">
-        </div>
-    </section>
-    <section>
-        <h2>Elemento Text➔Media</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque nostrum fuga odio tenetur ea modi sit accusantium impedit illo, fugit consectetur amet earum iste vitae enim magnam velit aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum placeat, vel accusantium fugit veritatis. Obcaecati libero dolorem a! Doloribus consectetur ullam totam nobis. Quasi laborum amet ea ducimus alias.</p>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/P15iFDx64T4?si=1p4p2fyiI5IWvoDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-    </section>
-    <footer>
-        <h2>Conteúdo normal</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsa sit est sint voluptatibus ea maxime! Tenetur, dolor earum. Similique sit eveniet officia enim cum autem eos reprehenderit ratione optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure atque non quo, corrupti sapiente excepturi accusamus voluptatibus, odio, ratione eius. Rerum similique officiis, repudiandae harum voluptatibus adipisci eveniet delectus!</p>
-    </footer>
+    <main>
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h2>Elemento Media➔Text</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iusto animi sint sapiente reiciendis inventore ipsa excepturi, voluptatibus voluptatem officia expedita repudiandae nemo? Saepe, obcaecati aperiam! Rerum temporibus provident magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quidem quae, dicta excepturi officia cumque eos, dignissimos quisquam quasi sunt aperiam corrupti voluptatum vero mollitia tempore! Quis cupiditate quod quia!</p>
+                </div>
+                <div class="media">
+                    <img src="foto.png" alt="Criando site flexbox">
+                </div>
+            </article>
+            <article class="text-media">
+                <div class="text">
+                    <h2>Elemento Text➔Media</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque officia corporis incidunt nihil consequatur unde? Iure facilis molestias aliquam quae, inventore reiciendis accusamus fugiat ea sit ut, neque eligendi saepe.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iste doloribus aut neque expedita ducimus quibusdam fugit, incidunt harum minus dolore dolorem ad vitae, porro qui consequuntur, perferendis distinctio iure.</p>
+                </div>
+                <div class="media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P15iFDx64T4?si=1p4p2fyiI5IWvoDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+        <section class="normal">
+            <h2>Elemento Text➔Media</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque nostrum fuga odio tenetur ea modi sit accusantium impedit illo, fugit consectetur amet earum iste vitae enim magnam velit aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum placeat, vel accusantium fugit veritatis. Obcaecati libero dolorem a! Doloribus consectetur ullam totam nobis. Quasi laborum amet ea ducimus alias.</p>
+            
+            </iframe>
+        </section> <!-- Fim da seção Flex-Content-->
+        <section class="normal">
+            <h2>Conteúdo normal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsa sit est sint voluptatibus ea maxime! Tenetur, dolor earum. Similique sit eveniet officia enim cum autem eos reprehenderit ratione optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure atque non quo, corrupti sapiente excepturi accusamus voluptatibus, odio, ratione eius. Rerum similique officiis, repudiandae harum voluptatibus adipisci eveniet delectus!</p>
+        </section>
+    </main>
 </body>
 </html>
