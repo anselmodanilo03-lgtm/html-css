@@ -33,7 +33,6 @@ section.flex-content {
 
     display: flex;
     flex-flow: column nowrap;
-    width: 100vw;
 }
 
 article.text-media {
@@ -53,7 +52,7 @@ article > div.text {
 }
 
 article > div.media {
-    flex: 1 0 500px;
+    flex: 1 0 400px;
 }
 
 div.media > img {
